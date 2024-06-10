@@ -1,4 +1,6 @@
+// type->javascript type conversion
 // let score = 33
+
 // let star="33asmaswd" // inside a double code always a string .
 // let don=null
 // let under=undefined
@@ -39,9 +41,25 @@
 // // true => 1
 // // false => 0
 
-let someNumber= 33;
-let stringNumber= String(someNumber)
-console.log(someNumber) //33
-console.log( stringNumber);// 33
-console.log(typeof stringNumber); // string
+// let someNumber= 33;
+// let stringNumber= String(someNumber)
+// console.log(someNumber) //33
+// console.log( stringNumber);// 33
+// console.log(typeof stringNumber); // string
 
+// let value=3
+// let negValue =-value;
+// console.log(negValue);//-3
+
+let str1="ankit"
+let str2=" gupta"
+let str3=str1+str2;
+console.log(str3);
+
+console.log("1" + 2)
+console.log(1 +"2")
+console.log("1" +2+2)
+console.log(1+2+"2")
+
+console.log(+true)// 1
+console.log(+"")//0
